@@ -195,3 +195,26 @@ main {
 .fact-description{
     max-width: 540px;
 }
+
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding: 15px;
+}
+
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 2px 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.features{
+    gap: 100px;
+}
