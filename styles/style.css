@@ -163,3 +163,35 @@ main {
         margin: 50px auto;
     }
 }
+
+.fact-card{
+    border: 2px solid #FFBA68;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fact-number{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 5px 10px;
+}
+
+.fact-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.fact-description{
+    max-width: 540px;
+}
